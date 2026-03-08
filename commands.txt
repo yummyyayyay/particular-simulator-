@@ -1,0 +1,1 @@
+cc main.c -o sim -Iraylib/src -Lraylib/src -lraylib -lm -lpthread -ldl -lrt -lX11
