@@ -1,6 +1,6 @@
 #include "raylib.h"
 #include <math.h>
-#define BALL_COUNT 10
+#define BALL_COUNT 25
 #define SCREEN_WIDTH 1920
 #define SCREEN_HEIGHT 1080
 #define BOUNDS_MARGIN 50

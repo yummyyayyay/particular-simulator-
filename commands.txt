@@ -1,4 +1,4 @@
-cc main.c -o sim -Iraylib/src -Lraylib/src -lraylib -lm -lpthread -ldl -lrt -lX11
+gcc main.c -o sim -Iraylib/src -Lraylib/src -lraylib -lm -lpthread -ldl -lrt -lX11
 
 things that i need to add : 
     i. better collision mechanic 
@@ -7,3 +7,5 @@ things that i need to add :
         rather than just adding velocity
     iv. also use grids to check collisions rather than just doing n^2
     v. improve how it looks 
+    vi. add mass and density to particles 
+    vii. add gravity 
